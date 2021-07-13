@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.amazon.alexa:ask-sdk-lambda-support:2.37.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-lambda-support/2.37.1/ask-sdk-lambda-support-2.37.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-lambda-support/2.37.1/ask-sdk-lambda-support-2.37.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-lambda-support/2.37.1/ask-sdk-lambda-support-2.37.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
