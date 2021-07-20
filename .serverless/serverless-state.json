@@ -184,7 +184,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/sspesalexa/prod/1626181559791-2021-07-13T13:05:59.791Z/target/sspes-alexa-1.0.jar"
+                "S3Key": "serverless/sspesalexa/prod/1626446171901-2021-07-16T14:36:11.901Z/target/sspes-alexa-1.0.jar"
               },
               "FunctionName": "sspesalexa-prod-skill",
               "Handler": "de.cweyermann.sspes.alexa.Handler",
@@ -205,14 +205,14 @@
               "SkillLogGroup"
             ]
           },
-          "SkillLambdaVersiontzSCN87gYKZz8zEicLQSom38oKOLd1heRPLtiAINhfY": {
+          "SkillLambdaVersionY2jQuIte12OSf09DbluNhw6BriR0FpyWnECHhNbIBg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "SkillLambdaFunction"
               },
-              "CodeSha256": "1/X0Ugt6uAyqKDKdyqsUdmz3C6SgVqGvhm1Ycbi1MI0="
+              "CodeSha256": "wwEv1yPzoCmaew+gFvOZ2KAGDCfxrRJ2elx3DHeqM6o="
             }
           },
           "SkillLambdaPermissionAlexaSkill1": {
@@ -239,7 +239,7 @@
           "SkillLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "SkillLambdaVersiontzSCN87gYKZz8zEicLQSom38oKOLd1heRPLtiAINhfY"
+              "Ref": "SkillLambdaVersionY2jQuIte12OSf09DbluNhw6BriR0FpyWnECHhNbIBg"
             }
           }
         }
@@ -328,7 +328,7 @@
         "memory": 1024,
         "runtime": "java11",
         "vpc": {},
-        "versionLogicalId": "SkillLambdaVersiontzSCN87gYKZz8zEicLQSom38oKOLd1heRPLtiAINhfY"
+        "versionLogicalId": "SkillLambdaVersionY2jQuIte12OSf09DbluNhw6BriR0FpyWnECHhNbIBg"
       }
     },
     "configValidationMode": "warn",
@@ -364,7 +364,7 @@
       },
       "package": {
         "artifact": "target/sspes-alexa-1.0.jar",
-        "artifactDirectoryName": "serverless/sspesalexa/prod/1626181559791-2021-07-13T13:05:59.791Z"
+        "artifactDirectoryName": "serverless/sspesalexa/prod/1626446171901-2021-07-16T14:36:11.901Z"
       },
       "functions": {
         "$ref": "$[\"service\"][\"functions\"]"
@@ -373,7 +373,7 @@
     "isDashboardMonitoringPreconfigured": false
   },
   "package": {
-    "artifactDirectoryName": "serverless/sspesalexa/prod/1626181559791-2021-07-13T13:05:59.791Z",
+    "artifactDirectoryName": "serverless/sspesalexa/prod/1626446171901-2021-07-16T14:36:11.901Z",
     "artifact": "target/sspes-alexa-1.0.jar"
   }
 }
