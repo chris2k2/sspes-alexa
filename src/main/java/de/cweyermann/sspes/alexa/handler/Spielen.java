@@ -18,8 +18,6 @@ import static com.amazon.ask.request.Predicates.intentName;
 
 public class Spielen implements RequestHandler {
 
-    public static final String ERGEBNIS_PATTERN = "Du hast gegen {0} gespielt. Du wähltest {1}, {0} {2}. Du hast {3}";
-
     @Override
     public boolean canHandle(HandlerInput input) {
         return input.matches(intentName("Spielen"));
@@ -45,7 +43,7 @@ public class Spielen implements RequestHandler {
 
         MatchResult matchResult = api.playUnrankedAgainstRandom(yourChoice);
 
-        String speechResult = MessageFormat.format(ERGEBNIS_PATTERN,
+        String speechResult = MessageFormat.format("Du hast gegen {0} gespielt. Du wähltest {1}, {0} {2}. Du hast {3}",
                 matchResult.getOpponentName(),
                 yourChoice,
                 matchResult.getOpponentChoice(),

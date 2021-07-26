@@ -21,6 +21,9 @@ public class SayHello implements RequestHandler {
     public Optional<Response> handle(HandlerInput input) {
         ResponseBuilder responseBuilder = input.getResponseBuilder();
         String helloText = "Hallo, willkommen bei Schere Stein Papier Echse Spock! Sage \"ich möchte spielen\" um ein Spiel zu starten";
-        return responseBuilder.withSpeech(helloText).withShouldEndSession(false).build();
+        return responseBuilder
+                .withSpeech(helloText)
+                .withShouldEndSession(false)
+                .build();
     }
 }

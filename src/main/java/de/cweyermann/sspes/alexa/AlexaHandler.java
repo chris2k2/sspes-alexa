@@ -8,9 +8,9 @@ import de.cweyermann.sspes.alexa.handler.SayHello;
 import de.cweyermann.sspes.alexa.handler.Spielen;
 import de.cweyermann.sspes.alexa.handler.Statistik;
 
-public class Handler extends SkillStreamHandler {
+public class AlexaHandler extends SkillStreamHandler {
 
-    public Handler() {
+    public AlexaHandler() {
         super(Skills
                 .standard()
                 .addRequestHandlers(

@@ -43,7 +43,7 @@ package:
 
 functions:
   skill:
-    handler: de.cweyermann.sspes.alexa.Handler
+    handler: de.cweyermann.sspes.alexa.AlexaHandler
     events:
       - alexaSkill: amzn1.ask.skill.be2cf04e-2685-495d-a4e0-9649cf7700f8
     timeout: 60
