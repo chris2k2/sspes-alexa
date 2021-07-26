@@ -2,17 +2,13 @@
 
 Dies ist der Alexa Code für "THE ULTIMATE SCHERE-STEIN-PAPIER-ECHSE-SPOCK SHOWDOWN". Der Code wird vom "Serverless AWS Lambda und Alexa"-Workshop verwendet. Er dient dazu spielerisch zu lernen, wie man einen Alexa Skill entwickelt.
 
+In dieser Datei (README) können alle Schritte nachvollzogen werden.
+
 # Ziel
 
 Der Skill ermöglicht in der finalen Stufe folgenden Dialog:
 
 ![dialog](imgs/finaldialog.PNG)
-
-# Verwendung
-
-Für jeden Schritt im Foliensatz existiert ein eigenes GIT-Tag. 
-Diese können einfach miteinander verglichen werden, siehe dazu auch in der 
-![Github-Anleitung](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/comparing-releases).
 
 # Schritt 1 - Neues Lambda Serverless Projekt anlegen
 
