@@ -58,7 +58,7 @@ public class AlexaHandler extends SkillStreamHandler {
                 .addRequestHandlers(
                         new SayHello()
                 )
-                .withSkillId("amzn1.ask.skill...")
+                .withSkillId("amzn1.ask.skill...") // EIGENE Skill-Id eintragen :)
                 .build());
     }
 
